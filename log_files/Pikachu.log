@@ -1,0 +1,124 @@
+фев 12, 2021 12:38:35 AM by.itacademy.controller.MenuOperation logIn
+INFO: User Pikachu has successfully logged in
+фев 12, 2021 12:38:35 AM by.itacademy.controller.MainMenu runViewerMenu
+INFO: "Main menu" has been opened
+фев 12, 2021 12:38:41 AM by.itacademy.controller.MainMenu runViewerMenu
+INFO: User has checked list of events
+фев 12, 2021 12:38:41 AM by.itacademy.controller.MainMenu runViewerMenu
+INFO: "Main menu" has been opened
+фев 12, 2021 12:38:52 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: "Buy ticket" menu has been entered
+фев 12, 2021 12:38:58 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: Movie show with id = 8 has been chosen
+фев 12, 2021 12:39:03 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: Ticket with id = 115 has been chosen
+фев 12, 2021 12:39:03 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: Ticket for movie show 8 with id = 115 has been successfully bought
+фев 12, 2021 12:39:03 AM by.itacademy.controller.MainMenu runViewerMenu
+INFO: "Main menu" has been opened
+фев 12, 2021 12:39:12 AM by.itacademy.controller.MainMenu runViewerMenu
+INFO: User has checked tickets
+фев 12, 2021 12:39:12 AM by.itacademy.controller.MainMenu runViewerMenu
+INFO: "Main menu" has been opened
+фев 12, 2021 12:39:26 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: "Buy ticket" menu has been entered
+фев 12, 2021 12:39:28 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: Movie show with id = 5 has been chosen
+фев 12, 2021 12:39:36 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: Ticket with id = 62 has been chosen
+фев 12, 2021 12:39:36 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: Ticket for movie show 5 with id = 62 has been successfully bought
+фев 12, 2021 12:39:36 AM by.itacademy.controller.MainMenu runViewerMenu
+INFO: "Main menu" has been opened
+фев 12, 2021 12:39:42 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: "Buy ticket" menu has been entered
+фев 12, 2021 12:39:46 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: Movie show with id = 7 has been chosen
+фев 12, 2021 12:39:52 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: Ticket with id = 100 has been chosen
+фев 12, 2021 12:39:52 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: Ticket for movie show 7 with id = 100 has been successfully bought
+фев 12, 2021 12:39:52 AM by.itacademy.controller.MainMenu runViewerMenu
+INFO: "Main menu" has been opened
+фев 12, 2021 12:40:04 AM by.itacademy.controller.MenuOperation refundTicket
+INFO: User is trying to refund ticket number = 115
+фев 12, 2021 12:40:04 AM by.itacademy.controller.MenuOperation refundTicket
+INFO: Ticket refund has been successful
+фев 12, 2021 12:40:04 AM by.itacademy.controller.MainMenu runViewerMenu
+INFO: "Main menu" has been opened
+фев 12, 2021 12:40:08 AM by.itacademy.controller.MainMenu runViewerMenu
+INFO: User has checked tickets
+фев 12, 2021 12:40:08 AM by.itacademy.controller.MainMenu runViewerMenu
+INFO: "Main menu" has been opened
+фев 12, 2021 12:40:13 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: "Buy ticket" menu has been entered
+фев 12, 2021 12:40:16 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: Movie show with id = 8 has been chosen
+фев 12, 2021 12:40:20 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: Ticket with id = 119 has been chosen
+фев 12, 2021 12:40:20 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: Ticket for movie show 8 with id = 119 has been successfully bought
+фев 12, 2021 12:40:20 AM by.itacademy.controller.MainMenu runViewerMenu
+INFO: "Main menu" has been opened
+фев 12, 2021 12:40:24 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: "Buy ticket" menu has been entered
+фев 12, 2021 12:40:26 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: Movie show with id = 5 has been chosen
+фев 12, 2021 12:40:30 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: Ticket with id = 1234 has been chosen
+фев 12, 2021 12:40:30 AM by.itacademy.service.TicketOperation buyTicket
+SEVERE: No value present
+java.util.NoSuchElementException: No value present
+	at java.util.Optional.get(Optional.java:135)
+	at by.itacademy.service.TicketOperation.buyTicket(TicketOperation.java:42)
+	at by.itacademy.controller.MenuOperation.buyTicket(MenuOperation.java:187)
+	at by.itacademy.controller.MainMenu.runViewerMenu(MainMenu.java:59)
+	at by.itacademy.controller.MainMenu.run(MainMenu.java:24)
+	at by.itacademy.Main.main(Main.java:12)
+
+фев 12, 2021 12:40:30 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: Ticket for movie show 5 with id = 1234 has been successfully bought
+фев 12, 2021 12:40:30 AM by.itacademy.controller.MainMenu runViewerMenu
+INFO: "Main menu" has been opened
+фев 12, 2021 12:40:37 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: "Buy ticket" menu has been entered
+фев 12, 2021 12:40:41 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: Movie show with id = fds has been chosen
+фев 12, 2021 12:40:41 AM by.itacademy.service.MovieShowOperation checkMovieShow
+SEVERE: For input string: "fds"
+java.lang.NumberFormatException: For input string: "fds"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at by.itacademy.service.MovieShowOperation.lambda$checkMovieShow$0(MovieShowOperation.java:83)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1361)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at by.itacademy.service.MovieShowOperation.checkMovieShow(MovieShowOperation.java:83)
+	at by.itacademy.controller.MenuOperation.buyTicket(MenuOperation.java:175)
+	at by.itacademy.controller.MainMenu.runViewerMenu(MainMenu.java:59)
+	at by.itacademy.controller.MainMenu.run(MainMenu.java:24)
+	at by.itacademy.Main.main(Main.java:12)
+
+фев 12, 2021 12:40:41 AM by.itacademy.controller.MenuOperation buyTicket
+INFO: Movie show with id = fds doesn't exist
+фев 12, 2021 12:40:41 AM by.itacademy.controller.MainMenu runViewerMenu
+INFO: "Main menu" has been opened
+фев 12, 2021 12:40:51 AM by.itacademy.controller.MainMenu runViewerMenu
+INFO: User Pikachu has logged out
+фев 12, 2021 12:41:00 AM by.itacademy.controller.MenuOperation logIn
+INFO: User Admin has successfully logged in
+фев 12, 2021 12:41:00 AM by.itacademy.controller.MainMenu runAdminMenu
+INFO: "Main menu" has been opened
+фев 12, 2021 12:41:04 AM by.itacademy.controller.MenuOperation showUsers
+INFO: "Show all users" menu has been opened
+фев 12, 2021 12:41:04 AM by.itacademy.controller.MainMenu runAdminMenu
+INFO: "Main menu" has been opened
+фев 12, 2021 12:41:42 AM by.itacademy.controller.MainMenu runAdminMenu
+INFO: User Admin has logged out

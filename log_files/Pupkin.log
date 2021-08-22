@@ -1,0 +1,52 @@
+фев 12, 2021 9:36:04 PM by.itacademy.controller.MenuOperation logIn
+INFO: User Pupkin has successfully logged in
+фев 12, 2021 9:36:04 PM by.itacademy.controller.ViewerMenu run
+INFO: "Main menu" has been opened
+фев 12, 2021 9:36:17 PM by.itacademy.controller.ViewerMenu run
+INFO: User has checked tickets
+фев 12, 2021 9:36:17 PM by.itacademy.controller.ViewerMenu run
+INFO: "Main menu" has been opened
+фев 12, 2021 9:36:22 PM by.itacademy.controller.ViewerMenu run
+INFO: User Pupkin has logged out
+фев 12, 2021 9:36:31 PM by.itacademy.controller.MenuOperation logIn
+INFO: User Admin has successfully logged in
+фев 12, 2021 9:36:31 PM by.itacademy.controller.AdminMenu run
+INFO: "Main menu" has been opened
+фев 12, 2021 9:36:37 PM by.itacademy.controller.MenuOperation showUsers
+INFO: "Show all users" menu has been opened
+фев 12, 2021 9:36:37 PM by.itacademy.controller.MenuOperation deleteUser
+INFO: "Delete user" menu has been opened
+фев 12, 2021 9:49:39 PM by.itacademy.controller.MenuOperation logIn
+INFO: User Pupkin has successfully logged in
+фев 12, 2021 9:49:39 PM by.itacademy.controller.ViewerMenu run
+INFO: "Main menu" has been opened
+фев 12, 2021 9:49:44 PM by.itacademy.controller.ViewerMenu run
+INFO: User has checked tickets
+фев 12, 2021 9:49:44 PM by.itacademy.controller.ViewerMenu run
+INFO: "Main menu" has been opened
+фев 12, 2021 9:49:48 PM by.itacademy.controller.MenuOperation buyTicket
+INFO: "Buy ticket" menu has been entered
+фев 12, 2021 9:49:52 PM by.itacademy.controller.MenuOperation buyTicket
+INFO: Movie show with id = 6 has been chosen
+фев 12, 2021 9:49:57 PM by.itacademy.controller.MenuOperation buyTicket
+INFO: Ticket with id = 87 has been chosen
+фев 12, 2021 9:49:57 PM by.itacademy.controller.MenuOperation buyTicket
+INFO: Ticket for movie show 6 with id = 87 has been successfully bought
+фев 12, 2021 9:49:57 PM by.itacademy.controller.ViewerMenu run
+INFO: "Main menu" has been opened
+фев 12, 2021 9:50:33 PM by.itacademy.controller.ViewerMenu run
+INFO: User has checked tickets
+фев 12, 2021 9:50:33 PM by.itacademy.controller.ViewerMenu run
+INFO: "Main menu" has been opened
+фев 12, 2021 9:50:52 PM by.itacademy.controller.ViewerMenu run
+INFO: User Pupkin has logged out
+фев 12, 2021 9:50:59 PM by.itacademy.controller.MenuOperation logIn
+INFO: User Admin has successfully logged in
+фев 12, 2021 9:50:59 PM by.itacademy.controller.AdminMenu run
+INFO: "Main menu" has been opened
+фев 12, 2021 9:51:07 PM by.itacademy.controller.MenuOperation showUsers
+INFO: "Show all users" menu has been opened
+фев 12, 2021 9:51:07 PM by.itacademy.controller.MenuOperation deleteUser
+INFO: "Delete user" menu has been opened
+фев 12, 2021 9:51:12 PM by.itacademy.service.UserOperation deleteUser
+INFO: User Pupkin has been deleted

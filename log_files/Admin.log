@@ -1,0 +1,80 @@
+фев 12, 2021 9:15:37 PM by.itacademy.controller.MenuOperation logIn
+INFO: User Admin has successfully logged in
+фев 12, 2021 9:15:37 PM by.itacademy.controller.AdminMenu run
+INFO: "Main menu" has been opened
+фев 12, 2021 9:15:42 PM by.itacademy.controller.MenuOperation showUsers
+INFO: "Show all users" menu has been opened
+фев 12, 2021 9:15:42 PM by.itacademy.controller.MenuOperation deleteUser
+INFO: "Delete user" menu has been opened
+фев 12, 2021 9:36:31 PM by.itacademy.controller.MenuOperation logIn
+INFO: User Admin has successfully logged in
+фев 12, 2021 9:36:31 PM by.itacademy.controller.AdminMenu run
+INFO: "Main menu" has been opened
+фев 12, 2021 9:36:37 PM by.itacademy.controller.MenuOperation showUsers
+INFO: "Show all users" menu has been opened
+фев 12, 2021 9:36:37 PM by.itacademy.controller.MenuOperation deleteUser
+INFO: "Delete user" menu has been opened
+фев 12, 2021 9:50:59 PM by.itacademy.controller.MenuOperation logIn
+INFO: User Admin has successfully logged in
+фев 12, 2021 9:50:59 PM by.itacademy.controller.AdminMenu run
+INFO: "Main menu" has been opened
+фев 12, 2021 9:51:07 PM by.itacademy.controller.MenuOperation showUsers
+INFO: "Show all users" menu has been opened
+фев 12, 2021 9:51:07 PM by.itacademy.controller.MenuOperation deleteUser
+INFO: "Delete user" menu has been opened
+фев 12, 2021 9:51:12 PM by.itacademy.service.UserOperation deleteUser
+INFO: User Pupkin has been deleted
+фев 12, 2021 9:51:12 PM by.itacademy.controller.AdminMenu run
+INFO: "Main menu" has been opened
+фев 12, 2021 9:51:31 PM by.itacademy.controller.AdminMenu run
+INFO: User Admin has logged out
+фев 13, 2021 12:33:11 AM by.itacademy.controller.MenuOperation logIn
+INFO: User Admin has successfully logged in
+фев 13, 2021 12:33:11 AM by.itacademy.controller.AdminMenu run
+INFO: "Main menu" has been opened
+фев 13, 2021 12:33:18 AM by.itacademy.controller.MenuOperation showUsers
+INFO: "Show all users" menu has been opened
+фев 13, 2021 12:33:18 AM by.itacademy.controller.AdminMenu run
+INFO: "Main menu" has been opened
+фев 13, 2021 12:33:44 AM by.itacademy.controller.AdminMenu run
+INFO: User Admin has logged out
+фев 13, 2021 12:33:55 AM by.itacademy.controller.MenuOperation logIn
+INFO: User Viewer has successfully logged in
+фев 13, 2021 12:33:55 AM by.itacademy.controller.ViewerMenu run
+INFO: "Main menu" has been opened
+фев 13, 2021 12:33:57 AM by.itacademy.controller.ViewerMenu run
+INFO: User has checked list of events
+фев 13, 2021 12:33:57 AM by.itacademy.controller.ViewerMenu run
+INFO: "Main menu" has been opened
+фев 13, 2021 12:34:14 AM by.itacademy.controller.ViewerMenu run
+INFO: User Viewer has logged out
+фев 13, 2021 12:41:01 PM by.itacademy.controller.MenuOperation logIn
+INFO: User Admin has successfully logged in
+фев 13, 2021 12:41:01 PM by.itacademy.controller.AdminMenu run
+INFO: "Main menu" has been opened
+фев 13, 2021 12:41:32 PM by.itacademy.controller.MenuOperation register
+INFO: User Vasya has been successfully registered
+фев 13, 2021 12:41:32 PM by.itacademy.controller.AdminMenu run
+INFO: "Main menu" has been opened
+фев 13, 2021 12:41:56 PM by.itacademy.controller.MenuOperation register
+INFO: User Olya has been successfully registered
+фев 13, 2021 12:41:56 PM by.itacademy.controller.AdminMenu run
+INFO: "Main menu" has been opened
+фев 13, 2021 12:42:08 PM by.itacademy.controller.MenuOperation showUsers
+INFO: "Show all users" menu has been opened
+фев 13, 2021 12:42:09 PM by.itacademy.controller.AdminMenu run
+INFO: "Main menu" has been opened
+фев 13, 2021 12:42:51 PM by.itacademy.controller.MenuOperation showUsers
+INFO: "Show all users" menu has been opened
+фев 13, 2021 12:42:51 PM by.itacademy.controller.MenuOperation deleteUser
+INFO: "Delete user" menu has been opened
+фев 13, 2021 12:43:06 PM by.itacademy.service.UserOperation deleteUser
+INFO: User Olya has been deleted
+фев 13, 2021 12:43:06 PM by.itacademy.controller.AdminMenu run
+INFO: "Main menu" has been opened
+фев 13, 2021 12:43:10 PM by.itacademy.controller.MenuOperation showUsers
+INFO: "Show all users" menu has been opened
+фев 13, 2021 12:43:10 PM by.itacademy.controller.AdminMenu run
+INFO: "Main menu" has been opened
+фев 13, 2021 12:43:15 PM by.itacademy.controller.AdminMenu run
+INFO: User Admin has logged out
